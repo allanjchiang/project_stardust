@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://d1oamm5gi4efw"]
+[gd_scene load_steps=2 format=3 uid="uid://d1oamm5gi4efw"]
+
+[ext_resource type="Script" path="res://scenes/prototypes/clicker/prototype_clicker.gd" id="1_nbsib"]
 
 [node name="PrototypeClicker" type="Control"]
 layout_mode = 3
@@ -11,6 +13,7 @@ offset_right = 188.0
 offset_bottom = 135.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_nbsib")
 
 [node name="Label" type="Label" parent="."]
 custom_minimum_size = Vector2(2.08165e-12, 80)
