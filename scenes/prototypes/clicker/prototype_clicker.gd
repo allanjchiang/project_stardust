@@ -13,6 +13,7 @@ func _on_button_pressed() -> void:
 
 func create_stardust() -> void:
 	stardust += 1
+	update_label_text()
 
 
 func update_label_text() -> void:
