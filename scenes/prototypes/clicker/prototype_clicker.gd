@@ -16,4 +16,4 @@ func create_stardust() -> void:
 
 
 func update_label_text() -> void:
-	label.text
+	label.text = "Stardust : 2"
