@@ -12,3 +12,4 @@ func _on_button_pressed():
 
 
 func create_stardust():
+	pass
