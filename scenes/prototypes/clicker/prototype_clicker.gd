@@ -7,7 +7,7 @@ extends Control
 var stardust : int = 0
 
 
-func _on_button_pressed():
+func _on_button_pressed() -> void:
 	pass # Replace with function body.
 
 
