@@ -2,4 +2,4 @@ class_name PrototypeClicker
 extends Control
 
 
-var stardust : int
+var stardust : int = 0
