@@ -1,5 +1,6 @@
 class_name PrototypeClicker
 extends Control
+## A clicker prototype creating stardust
 
 
 @export var label : Label
