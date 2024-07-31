@@ -5,7 +5,7 @@ extends Control
 
 ## Reference to the label displaying the current amount of stardust created.
 @export var label : Label
-
+## Current amount of stardust created.
 var stardust : int = 0
 
 func _ready() -> void:
