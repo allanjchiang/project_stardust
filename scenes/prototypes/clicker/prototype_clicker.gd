@@ -6,6 +6,9 @@ extends Control
 
 var stardust : int = 0
 
+func _ready() -> void:
+	update_label_text()
+
 
 func create_stardust() -> void:
 	stardust += 1
