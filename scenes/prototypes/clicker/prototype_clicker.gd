@@ -3,6 +3,7 @@ extends Control
 ## A clicker prototype creating stardust.
 
 
+## Reference to the label displaying the current amount of stardust created.
 @export var label : Label
 
 var stardust : int = 0
