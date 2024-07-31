@@ -8,6 +8,8 @@ extends Control
 ## Current amount of stardust created.
 var stardust : int = 0
 
+
+## Initialize the label at launch.
 func _ready() -> void:
 	update_label_text()
 
