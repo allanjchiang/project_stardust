@@ -13,7 +13,7 @@ var stardust : int = 0
 func _ready() -> void:
 	update_label_text()
 
-
+## Create 1 stardust.
 func create_stardust() -> void:
 	stardust += 1
 	update_label_text()
