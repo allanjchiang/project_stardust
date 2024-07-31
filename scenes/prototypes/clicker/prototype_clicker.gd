@@ -19,6 +19,7 @@ func create_stardust() -> void:
 	update_label_text()
 
 
+## Update the text of the label to reflect a change in stardust amount.
 func update_label_text() -> void:
 	label.text = "Stardust : %s" %stardust
 
