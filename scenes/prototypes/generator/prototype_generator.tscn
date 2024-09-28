@@ -21,6 +21,7 @@ offset_right = 4.0
 offset_bottom = 4.0
 grow_horizontal = 2
 grow_vertical = 2
+text = "Start Generating Stardust"
 
 [node name="Label" type="Label" parent="."]
 custom_minimum_size = Vector2(2.08165e-12, 80)
