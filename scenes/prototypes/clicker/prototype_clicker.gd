@@ -24,5 +24,6 @@ func update_label_text() -> void:
 	label.text = "Stardust : %s" %stardust
 
 
+# Triggered when the create stardust button is pressed.
 func _on_button_pressed() -> void:
 	create_stardust()
