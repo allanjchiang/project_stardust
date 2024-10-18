@@ -1,13 +1,15 @@
 class_name PrototypeGenerator
 extends Control
 
+## Generator prototype creating stardust
 
+## Reference to the label displaying the current amount of stardust in storage.
 @export var label : Label
-
+## Reference to the button starting the generation
 @export var button : Button
-
+## Reference to the timer.
 @export var timer : Timer
-
+## Declare variable stardust and initialize it as 0.
 var stardust : int = 0
 
 func _ready() -> void:
