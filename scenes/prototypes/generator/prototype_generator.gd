@@ -8,7 +8,7 @@ extends Control
 
 @export var timer : Timer
 
-var stardust : int
+var stardust : int = 0
 
 func _ready() -> void:
 	update_label_text()
