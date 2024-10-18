@@ -9,3 +9,6 @@ extends Control
 @export var timer : Timer
 
 var stardust : int
+
+
+func create_stardust() -> void:
