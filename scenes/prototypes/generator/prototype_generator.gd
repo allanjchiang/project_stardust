@@ -23,6 +23,7 @@ func update_label_text() -> void:
 
 func begin_generating_stardust() -> void:
 	timer.start()
+	button.disabled = true
 	
 func _on_button_pressed() -> void:
 	begin_generating_stardust()
