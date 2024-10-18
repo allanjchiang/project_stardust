@@ -9,27 +9,31 @@ extends Control
 @export var button : Button
 ## Reference to the timer.
 @export var timer : Timer
-## Declare variable stardust and initialize it as 0.
+## Current amount of stardust in storage.
 var stardust : int = 0
 
+## Initialize the label
 func _ready() -> void:
 	update_label_text()
 
+## Add 1 to stardust in storage and update label text.
 func create_stardust() -> void:
 	stardust += 1
 	update_label_text()
 
+## Update label text to reflect current amount of stardust.
 func update_label_text() -> void:
 	label.text = "Stardust : %s" %stardust
 
-
+## Button that starts the timer and starts creating stardust disables button.
 func begin_generating_stardust() -> void:
 	timer.start()
 	button.disabled = true
 	
+## Start creating stardust when button is pressed.
 func _on_button_pressed() -> void:
 	begin_generating_stardust()
 
-
+## After timer times out, create stardust.
 func _on_timer_timeout() -> void:
 	create_stardust()
