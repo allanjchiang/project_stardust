@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scenes/prototypes/generator/prototype_generator.gd" id="1_w2ani"]
 
-[node name="PrototypeGenerator" type="Control"]
+[node name="PrototypeGenerator" type="Control" node_paths=PackedStringArray("label", "button", "timer")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -10,6 +10,9 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_w2ani")
+label = NodePath("Label")
+button = NodePath("Button")
+timer = NodePath("Timer")
 
 [node name="Button" type="Button" parent="."]
 custom_minimum_size = Vector2(320, 80)
