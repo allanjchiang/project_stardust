@@ -4,4 +4,6 @@ extends Control
 
 var label : Label
 
+var button : Button
+
 var stardust : int
