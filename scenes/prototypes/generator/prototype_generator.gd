@@ -6,4 +6,6 @@ var label : Label
 
 var button : Button
 
+var timer : Timer
+
 var stardust : int
