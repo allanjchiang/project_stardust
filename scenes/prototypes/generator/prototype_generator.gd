@@ -27,3 +27,7 @@ func begin_generating_stardust() -> void:
 	
 func _on_button_pressed() -> void:
 	begin_generating_stardust()
+
+
+func _on_timer_timeout() -> void:
+	create_stardust()
