@@ -2,10 +2,10 @@ class_name PrototypeGenerator
 extends Control
 
 
-var label : Label
+@export var label : Label
 
-var button : Button
+@export var button : Button
 
-var timer : Timer
+@export var timer : Timer
 
 var stardust : int
