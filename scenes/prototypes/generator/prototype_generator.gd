@@ -12,3 +12,4 @@ var stardust : int
 
 
 func create_stardust() -> void:
+	stardust += 1
