@@ -19,3 +19,7 @@ func create_stardust() -> void:
 
 func update_label_text() -> void:
 	label.text = "Stardust : %s" %stardust
+
+
+func _on_button_pressed() -> void:
+	pass # Replace with function body.
