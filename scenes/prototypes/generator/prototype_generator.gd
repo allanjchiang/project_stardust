@@ -10,6 +10,8 @@ extends Control
 
 var stardust : int
 
+func _ready() -> void:
+
 
 func create_stardust() -> void:
 	stardust += 1
